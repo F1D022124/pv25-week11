@@ -1,9 +1,10 @@
 # WEEK 11 - BOOKS MANAGER WITH CRUD - IDA AYU VINAYA ANINDYA (F1D02214)
 
 ### Tampilan Awal Books
-![ Tampilan Awal Books](11-awalbooks.png)
+![ Tampilan Awal Books](11-awalbooks.png)(
 
 ### Tampilan Add Data 
+![ Tampilan Add Data](11-addbook.png)(11-addbook2.png)
 
 ### Tampilan Data Setelah di Simpan 
 
