@@ -128,7 +128,7 @@ class BookApp(QMainWindow):
 
         self.statusBar = QStatusBar()
         self.setStatusBar(self.statusBar)
-        self.statusBar.showMessage("Student: John Doe | NIM: 123456789")
+        self.statusBar.showMessage("")
 
         dock = QDockWidget("Help", self)
         help_text = QTextEdit()
