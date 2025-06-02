@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>541</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Books</string>
+     </attribute>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>531</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>529</width>
+         <height>309</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Title</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>100</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Author</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>150</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Year</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>20</y>
+          <width>411</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>60</y>
+          <width>471</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #28A745; color: white;</string>
+        </property>
+        <property name="text">
+         <string>Paste Title Form Clipboard</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>100</y>
+          <width>411</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>140</y>
+          <width>411</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>180</y>
+          <width>471</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #28A745; color: white;</string>
+        </property>
+        <property name="text">
+         <string>Add Book</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>220</y>
+          <width>471</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #28A745; color: white;</string>
+        </property>
+        <property name="text">
+         <string>Update Book</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>260</y>
+          <width>471</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #28A745; color: white;</string>
+        </property>
+        <property name="text">
+         <string>Delete Book</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>320</y>
+        <width>531</width>
+        <height>191</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Export</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>531</width>
+        <height>421</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>430</y>
+        <width>491</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #28A745; color: white;</string>
+      </property>
+      <property name="text">
+       <string>Export to Text</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>470</y>
+        <width>491</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #28A745; color: white;</string>
+      </property>
+      <property name="text">
+       <string>Export to CSV</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color :#A9A9A9</string>
+    </property>
+    <property name="text">
+     <string>search by title or author</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #28A745; color: white;</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>40</y>
+      <width>465</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Book Manager Help:
+        - Add: Enter title, author, select or type year, and click 'Add Book'
+        - Update: Select a book, modify details, click 'Update Book'
+        - Delete: Select a book and click 'Delete Book'
+        - Search: Enter title or author in the search bar above tabs and click 'Search'
+        - Export: Go to Export tab and click 'Export to Text' or 'Export to CSV'
+        - Paste: Use clipboard button to paste title or press Ctrl + Shift + V</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>4</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Help</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="styleSheet">
+        <string notr="true">background-color: #A9A9A9; color: black;</string>
+       </property>
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
