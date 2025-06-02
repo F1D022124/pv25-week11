@@ -19,13 +19,13 @@
 ![ Tampilan Delete Data ](11-deletebook2.png)
 
 ### Tampilan Paste Clipboard
-![ Tampilan Delete Data ](11-deletebook.png)
+![Tampilan Paste Clipboard](11-clip.png)
 
 ### Tampilan Search Data
 ![Tampilan Search Data ](11-searchbook.png)
 
 ### Tampilan Awal Export
-![Tampilan Search Data ](11-searchbook.png)
+![Tampilan Awal Export](11-awalexp.png)
 
 ### Tampilan Export Text
 ![Tampilan Export Text](11-text.png)
